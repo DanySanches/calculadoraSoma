@@ -29,10 +29,10 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal2" />
+        app:layout_constraintTop_toBottomOf="@+id/edtNumero1" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/edtNumero2"
         android:layout_width="105dp"
         android:layout_height="42dp"
         android:layout_marginTop="50dp"
@@ -43,7 +43,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal2"
+        android:id="@+id/edtNumero1"
         android:layout_width="105dp"
         android:layout_height="42dp"
         android:layout_marginTop="50dp"
@@ -54,7 +54,7 @@
         app:layout_constraintTop_toBottomOf="@+id/n1" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSomar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100dp"
